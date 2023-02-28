@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+}
+body {
+  background-color: blanchedalmond;
+}
+
+#card:hover {
+  opacity: 1;
+}
+#card {
+  opacity: 0.5;
+}
+#form {
+  width: auto;
+  height: 70px;
+  display: "flex";
+  padding: 20px;
+}
+.input {
+  margin-left: 40%;
+
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+button {
+  background-color: red;
+}
