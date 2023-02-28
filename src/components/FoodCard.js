@@ -15,7 +15,7 @@ const FoodCard = ({ el }) => {
           backgroundColor: "red",
         }}
       >
-        <Card.Img variant="top" src={el.food.image} />
+        <Card.Img variant="top" alt="image not found " src={el.food.image} />
         <Card.Body>
           <Card.Title>{el.food.label}</Card.Title>
           <Card.Text> {el.food.category} </Card.Text>
